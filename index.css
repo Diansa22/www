@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lobster&family=Open+Sans:wght@800&display=swap');
+
+
 body {
     padding:30px;
    
 }
 h1 {
-    color: rgb(8, 8, 175);
+    color: rgb(8, 70, 185);
     text-align: center;
-   font-family: "lobster";
     font-size: 40px;
+    background-color: rgb(223, 222, 222);
+    font-family: 'Francois One', sans-serif;
+
+
 }
 figure {
     border: 2px solid rgb(255, 255, 255);
@@ -53,4 +59,22 @@ div.son {
     width: 200px;
     margin: auto;
     display: flex;
+}
+.instagramLog {
+    margin: 5px;
+    height: 45px;
+}
+
+.faceLog {
+    margin: 5px;
+    height: 45px;
+}
+.gitLogo {
+    margin: 5px;
+    height: 45px;
+}
+.inked {
+    margin: 5px;
+    display: flex;
+
 }
