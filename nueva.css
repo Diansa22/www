@@ -110,5 +110,104 @@ width: 100vw;
     margin-bottom: 1em;
 }
 .about p {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+.portfolio {
+    width: 100%;
+    background-color: #191c32;
+    color:#fff;
+    
+}
+.portfolio-headings {
+    width: 100%;
+    padding: 5em;
+}
+.portfolio-headings h2 {
+    font-size: 2.5em;
+}
+.portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.card {
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    background-color: rgb(127, 127, 255);
+  
+}
+.card__img {
+    width: 100%;
+    height: 150px;
+    background-image:url(assets/kondor.jpg) ;
+    background-size: cover;
+}
+.card__title {
+padding: 20px;
+
+}
+.card__projects-links {
+display: flex;
+justify-content: space-evenly;
+}
+.card__projects-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.card .project-details {
+margin: 0 auto;
+margin: 1em;
+width:50%;
+
+}
+.project-details a {
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+}
+.project-details-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+.contact-section {
+    background-color: #191c32;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+}
+.contac-headings h2 {
+font-size: 3em;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+}
+.container-contact img {
+    width: 350px;
+    height: 300px;
+    bottom: 0px;
+    grid-column: 1/5;
+}
+.contact-form {
+    grid-column: 5/10;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+.form input {
+    padding: 10 px 20px;
+    margin-bottom: 1em;
+    background: none;
 }
